@@ -1,4 +1,16 @@
+diff -Zaurp ../schily-2021-09-18-orig/.links ../schily-2021-09-18/.links
+--- ../schily-2021-09-18-orig/.links	2021-09-01 06:37:44.000000000 -0300
++++ ../schily-2021-09-18/.links	2022-07-23 13:44:13.102816500 -0300
+@@ -245,6 +245,7 @@
+ ./psmake/strcatl.c
+ ./psmake/streql.c
+ ./psmake/strlcpy.c
++./psmake/strlcat.c
+ ./psmake/strncpy.c
+ ./psmake/strnlen.c
+ ./psmake/uname.c
 Only in ../schily-2021-09-18: .vscode
+Only in ../schily-2021-09-18/DEFAULTS: Defaults.cygwin_nt-10.0-19044
 Only in ../schily-2021-09-18/RULES: 9000-710-hp-ux-cc.rul
 Only in ../schily-2021-09-18/RULES: 9000-710-hp-ux-cc64.rul
 Only in ../schily-2021-09-18/RULES: 9000-710-hp-ux-gcc.rul
@@ -52,6 +64,12 @@ Only in ../schily-2021-09-18/RULES: aarch64-linux-clang64.rul
 Only in ../schily-2021-09-18/RULES: aarch64-linux-gcc.rul
 Only in ../schily-2021-09-18/RULES: aarch64-linux-gcc32.rul
 Only in ../schily-2021-09-18/RULES: aarch64-linux-gcc64.rul
+Only in ../schily-2021-09-18/RULES: aarch64-sunos5-clang.rul
+Only in ../schily-2021-09-18/RULES: aarch64-sunos5-clang32.rul
+Only in ../schily-2021-09-18/RULES: aarch64-sunos5-clang64.rul
+Only in ../schily-2021-09-18/RULES: aarch64-sunos5-gcc.rul
+Only in ../schily-2021-09-18/RULES: aarch64-sunos5-gcc32.rul
+Only in ../schily-2021-09-18/RULES: aarch64-sunos5-gcc64.rul
 Only in ../schily-2021-09-18/RULES: alpha-linux-cc.rul
 Only in ../schily-2021-09-18/RULES: alpha-linux-gcc.rul
 Only in ../schily-2021-09-18/RULES: alpha-netbsd-cc.rul
@@ -94,6 +112,9 @@ Only in ../schily-2021-09-18/RULES: arm-freebsd-clang64.rul
 Only in ../schily-2021-09-18/RULES: arm-freebsd-gcc.rul
 Only in ../schily-2021-09-18/RULES: arm-freebsd-gcc32.rul
 Only in ../schily-2021-09-18/RULES: arm-freebsd-gcc64.rul
+Only in ../schily-2021-09-18/RULES: arm64-darwin-clang.rul
+Only in ../schily-2021-09-18/RULES: arm64-darwin-clang32.rul
+Only in ../schily-2021-09-18/RULES: arm64-darwin-clang64.rul
 Only in ../schily-2021-09-18/RULES: arm64-freebsd-cc.rul
 Only in ../schily-2021-09-18/RULES: arm64-freebsd-cc32.rul
 Only in ../schily-2021-09-18/RULES: arm64-freebsd-cc64.rul
@@ -129,6 +150,7 @@ Only in ../schily-2021-09-18/RULES: cc-sgi32.rul
 Only in ../schily-2021-09-18/RULES: cc-sgi64.rul
 Only in ../schily-2021-09-18/RULES: cc-sunpro32.rul
 Only in ../schily-2021-09-18/RULES: cc-sunpro64.rul
+Only in ../schily-2021-09-18/RULES: cc-x86_64-w64-mingw32-gcc.rul
 Only in ../schily-2021-09-18/RULES: earmv7-netbsd-cc.rul
 Only in ../schily-2021-09-18/RULES: earmv7-netbsd-cc32.rul
 Only in ../schily-2021-09-18/RULES: earmv7-netbsd-cc64.rul
@@ -142,6 +164,14 @@ Only in ../schily-2021-09-18/RULES: i386-bitrig-clang.rul
 Only in ../schily-2021-09-18/RULES: i386-cygwin32_nt-cc.rul
 Only in ../schily-2021-09-18/RULES: i386-cygwin32_nt-cl.rul
 Only in ../schily-2021-09-18/RULES: i386-cygwin32_nt-gcc.rul
+Only in ../schily-2021-09-18/RULES: i386-darwin-cc.rul
+Only in ../schily-2021-09-18/RULES: i386-darwin-cc32.rul
+Only in ../schily-2021-09-18/RULES: i386-darwin-cc64.rul
+Only in ../schily-2021-09-18/RULES: i386-darwin-clang32.rul
+Only in ../schily-2021-09-18/RULES: i386-darwin-clang64.rul
+Only in ../schily-2021-09-18/RULES: i386-darwin-gcc.rul
+Only in ../schily-2021-09-18/RULES: i386-darwin-gcc32.rul
+Only in ../schily-2021-09-18/RULES: i386-darwin-gcc64.rul
 Only in ../schily-2021-09-18/RULES: i386-dragonfly-cc.rul
 Only in ../schily-2021-09-18/RULES: i386-dragonfly-gcc.rul
 Only in ../schily-2021-09-18/RULES: i386-freebsd-clang32.rul
@@ -164,6 +194,7 @@ Only in ../schily-2021-09-18/RULES: i486-linux-gcc.rul
 Only in ../schily-2021-09-18/RULES: i486-linux-suncc.rul
 Only in ../schily-2021-09-18/RULES: i586-cygwin32_nt-cc.rul
 Only in ../schily-2021-09-18/RULES: i586-cygwin32_nt-cl.rul
+Only in ../schily-2021-09-18/RULES: i586-cygwin32_nt-gcc.rul
 Only in ../schily-2021-09-18/RULES: i586-gnu-kfreebsd-cc.rul
 Only in ../schily-2021-09-18/RULES: i586-gnu-kfreebsd-gcc.rul
 Only in ../schily-2021-09-18/RULES: i586-linux-cc64.rul
@@ -178,13 +209,18 @@ Only in ../schily-2021-09-18/RULES: i686-at386-gnu-gcc.rul
 Only in ../schily-2021-09-18/RULES: i686-cygwin32_nt-cc.rul
 Only in ../schily-2021-09-18/RULES: i686-cygwin32_nt-cl.rul
 Only in ../schily-2021-09-18/RULES: i686-cygwin32_nt-cl64.rul
+Only in ../schily-2021-09-18/RULES: i686-cygwin32_nt-gcc.rul
 Only in ../schily-2021-09-18/RULES: i686-cygwin32_wow-cc.rul
 Only in ../schily-2021-09-18/RULES: i686-cygwin32_wow-cc64.rul
 Only in ../schily-2021-09-18/RULES: i686-cygwin32_wow-cl.rul
 Only in ../schily-2021-09-18/RULES: i686-cygwin32_wow-cl64.rul
+Only in ../schily-2021-09-18/RULES: i686-cygwin32_wow-gcc.rul
+Only in ../schily-2021-09-18/RULES: i686-cygwin32_wow-gcc64.rul
 Only in ../schily-2021-09-18/RULES: i686-cygwin32_wow64-cc.rul
 Only in ../schily-2021-09-18/RULES: i686-cygwin32_wow64-cc64.rul
 Only in ../schily-2021-09-18/RULES: i686-cygwin32_wow64-cl.rul
+Only in ../schily-2021-09-18/RULES: i686-cygwin32_wow64-gcc.rul
+Only in ../schily-2021-09-18/RULES: i686-cygwin32_wow64-gcc64.rul
 Only in ../schily-2021-09-18/RULES: i686-gnu-kfreebsd-cc.rul
 Only in ../schily-2021-09-18/RULES: i686-gnu-kfreebsd-gcc.rul
 Only in ../schily-2021-09-18/RULES: i686-linux-cc.rul
@@ -194,13 +230,24 @@ Only in ../schily-2021-09-18/RULES: i686-linux-suncc64.rul
 Only in ../schily-2021-09-18/RULES: i786-cygwin32_nt-cc.rul
 Only in ../schily-2021-09-18/RULES: i786-cygwin32_nt-cl.rul
 Only in ../schily-2021-09-18/RULES: i786-cygwin32_nt-cl64.rul
+Only in ../schily-2021-09-18/RULES: i786-cygwin32_nt-gcc.rul
 Only in ../schily-2021-09-18/RULES: i786-cygwin32_wow-cc.rul
 Only in ../schily-2021-09-18/RULES: i786-cygwin32_wow-cc64.rul
 Only in ../schily-2021-09-18/RULES: i786-cygwin32_wow-cl.rul
 Only in ../schily-2021-09-18/RULES: i786-cygwin32_wow-cl64.rul
+Only in ../schily-2021-09-18/RULES: i786-cygwin32_wow-gcc.rul
+Only in ../schily-2021-09-18/RULES: i786-cygwin32_wow-gcc64.rul
 Only in ../schily-2021-09-18/RULES: i786-cygwin32_wow64-cc.rul
 Only in ../schily-2021-09-18/RULES: i786-cygwin32_wow64-cc64.rul
 Only in ../schily-2021-09-18/RULES: i786-cygwin32_wow64-cl.rul
+Only in ../schily-2021-09-18/RULES: i786-cygwin32_wow64-gcc.rul
+Only in ../schily-2021-09-18/RULES: i786-cygwin32_wow64-gcc64.rul
+Only in ../schily-2021-09-18/RULES: i86pc-sunos5-cc32.rul
+Only in ../schily-2021-09-18/RULES: i86pc-sunos5-cc64.rul
+Only in ../schily-2021-09-18/RULES: i86pc-sunos5-clang32.rul
+Only in ../schily-2021-09-18/RULES: i86pc-sunos5-clang64.rul
+Only in ../schily-2021-09-18/RULES: i86pc-sunos5-gcc32.rul
+Only in ../schily-2021-09-18/RULES: i86pc-sunos5-gcc64.rul
 Only in ../schily-2021-09-18/RULES: ia64-hp-ux-cc.rul
 Only in ../schily-2021-09-18/RULES: ia64-hp-ux-cc64.rul
 Only in ../schily-2021-09-18/RULES: ia64-hp-ux-gcc.rul
@@ -271,6 +318,8 @@ Only in ../schily-2021-09-18/RULES: mipsel-linux-gcc.rul
 Only in ../schily-2021-09-18/RULES: mk-build.id
 Only in ../schily-2021-09-18/RULES: mk-make.id
 Only in ../schily-2021-09-18/RULES: os-cygwin_98-4.0.id
+Only in ../schily-2021-09-18/RULES: os-cygwin_nt-10.0-19044.def
+Only in ../schily-2021-09-18/RULES: os-cygwin_nt-10.0-19044.id
 Only in ../schily-2021-09-18/RULES: os-irix64.id
 Only in ../schily-2021-09-18/RULES: os-openunix.id
 Only in ../schily-2021-09-18/RULES: parisc-linux-cc.rul
@@ -278,6 +327,12 @@ Only in ../schily-2021-09-18/RULES: parisc-linux-gcc.rul
 Only in ../schily-2021-09-18/RULES: parisc64-linux-cc.rul
 Only in ../schily-2021-09-18/RULES: parisc64-linux-gcc.rul
 Only in ../schily-2021-09-18/RULES: parisc64-linux-gcc32.rul
+Only in ../schily-2021-09-18/RULES: power-macintosh-darwin-cc32.rul
+Only in ../schily-2021-09-18/RULES: power-macintosh-darwin-cc64.rul
+Only in ../schily-2021-09-18/RULES: power-macintosh-darwin-gcc32.rul
+Only in ../schily-2021-09-18/RULES: power-macintosh-darwin-gcc64.rul
+Only in ../schily-2021-09-18/RULES: power-macintosh-mac-os10-cc.rul
+Only in ../schily-2021-09-18/RULES: power-macintosh-mac-os10-gcc.rul
 Only in ../schily-2021-09-18/RULES: powerpc-freebsd-cc.rul
 Only in ../schily-2021-09-18/RULES: powerpc-freebsd-cc32.rul
 Only in ../schily-2021-09-18/RULES: powerpc-freebsd-cc64.rul
@@ -343,6 +398,28 @@ Only in ../schily-2021-09-18/RULES: sparc64-linux-gcc32.rul
 Only in ../schily-2021-09-18/RULES: sparc64-linux-gcc64.rul
 Only in ../schily-2021-09-18/RULES: sparc64-openbsd-cc.rul
 Only in ../schily-2021-09-18/RULES: sparc64-openbsd-gcc.rul
+Only in ../schily-2021-09-18/RULES: sun4-sunos5-cc32.rul
+Only in ../schily-2021-09-18/RULES: sun4-sunos5-cc64.rul
+Only in ../schily-2021-09-18/RULES: sun4-sunos5-clang32.rul
+Only in ../schily-2021-09-18/RULES: sun4-sunos5-clang64.rul
+Only in ../schily-2021-09-18/RULES: sun4-sunos5-gcc32.rul
+Only in ../schily-2021-09-18/RULES: sun4-sunos5-gcc64.rul
+Only in ../schily-2021-09-18/RULES: sun4c-sunos4-cc.rul
+Only in ../schily-2021-09-18/RULES: sun4c-sunos4-gcc.rul
+Only in ../schily-2021-09-18/RULES: x86_64-cygwin32_nt-gcc.rul
+Only in ../schily-2021-09-18/RULES: x86_64-cygwin32_nt-gcc32.rul
+Only in ../schily-2021-09-18/RULES: x86_64-cygwin32_nt-gcc64.rul
+Only in ../schily-2021-09-18/RULES: x86_64-cygwin_nt-10.0-19042-gcc.rul
+Only in ../schily-2021-09-18/RULES: x86_64-cygwin_nt-10.0-19044-gcc.rul
+Only in ../schily-2021-09-18/RULES: x86_64-darwin-cc.rul
+Only in ../schily-2021-09-18/RULES: x86_64-darwin-cc32.rul
+Only in ../schily-2021-09-18/RULES: x86_64-darwin-cc64.rul
+Only in ../schily-2021-09-18/RULES: x86_64-darwin-clang.rul
+Only in ../schily-2021-09-18/RULES: x86_64-darwin-clang32.rul
+Only in ../schily-2021-09-18/RULES: x86_64-darwin-clang64.rul
+Only in ../schily-2021-09-18/RULES: x86_64-darwin-gcc.rul
+Only in ../schily-2021-09-18/RULES: x86_64-darwin-gcc32.rul
+Only in ../schily-2021-09-18/RULES: x86_64-darwin-gcc64.rul
 Only in ../schily-2021-09-18/RULES: x86_64-dragonfly-cc.rul
 Only in ../schily-2021-09-18/RULES: x86_64-dragonfly-gcc.rul
 Only in ../schily-2021-09-18/RULES: x86_64-gnu-kfreebsd-cc.rul
@@ -357,9 +434,563 @@ Only in ../schily-2021-09-18/RULES: x86_64-linux-gcc32.rul
 Only in ../schily-2021-09-18/RULES: x86_64-linux-gcc64.rul
 Only in ../schily-2021-09-18/RULES: x86_64-linux-suncc.rul
 Only in ../schily-2021-09-18/RULES: x86_64-linux-suncc64.rul
+diff -Zaurp ../schily-2021-09-18-orig/bsh/Makefile ../schily-2021-09-18/bsh/Makefile
+--- ../schily-2021-09-18-orig/bsh/Makefile	2021-08-20 16:39:37.000000000 -0300
++++ ../schily-2021-09-18/bsh/Makefile	2022-07-24 03:28:44.751698000 -0300
+@@ -59,7 +59,7 @@ HFILES=		abbrev.h bsh.h map.h node.h abb
+ #
+ # $(LIB_ACL_TEST) $(LIB_INTL) are needed for libfind
+ #
+-LIBS=		-lxtermcap -lfind -lschily $(LIB_SECDB) $(LIB_CRYPT) $(LIB_ACL_TEST) $(LIB_INTL)
++LIBS=		-lxtermcap -lfind -lschily $(LIB_SECDB) $(LIB_CRYPT) $(LIB_ACL_TEST) $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man pfbsh.mk1 Makefile.dot
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/bsh: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/bsh/bsh.h ../schily-2021-09-18/bsh/bsh.h
+--- ../schily-2021-09-18-orig/bsh/bsh.h	2019-04-07 09:30:32.000000000 -0300
++++ ../schily-2021-09-18/bsh/bsh.h	2022-07-24 02:15:00.306268500 -0300
+@@ -268,7 +268,7 @@ extern	BOOL	is_dir		__PR((char *name));
+  */
+ extern	int	nextch		__PR((void));
+ extern	int	peekch		__PR((void));
+-extern	void	ungetch		__PR((int c));
++extern	int	ungetch		__PR((int c));
+ extern	char	*nextline	__PR((void));
+ extern	FILE	*setinput	__PR((FILE *f));
+ extern	void	sclearerr	__PR((void));
+diff -Zaurp ../schily-2021-09-18-orig/bsh/input.c ../schily-2021-09-18/bsh/input.c
+--- ../schily-2021-09-18-orig/bsh/input.c	2018-10-07 08:31:42.000000000 -0300
++++ ../schily-2021-09-18/bsh/input.c	2022-07-24 02:16:42.371267300 -0300
+@@ -98,7 +98,7 @@ LOCAL	int	fillbuf		__PR((int c, char *wb
+ LOCAL	int	readchar	__PR((fstream *fsp));
+ EXPORT	int	nextch		__PR((void));
+ EXPORT	int	peekch		__PR((void));
+-EXPORT	void	ungetch		__PR((int c));
++EXPORT	int	ungetch		__PR((int c));
+ EXPORT	char	*nextline	__PR((void));
+ EXPORT	FILE	*setinput	__PR((FILE * f));
+ EXPORT	void	sclearerr	__PR((void));
+@@ -229,11 +229,12 @@ peekch()
+ /*
+  * Push back a single character
+  */
+-EXPORT void
++EXPORT int
+ ungetch(c)
+ 	int	c;
+ {
+ 	fspushcha(instrm, c);
++	return (0);
+ }
+ 
+ /*
+diff -Zaurp ../schily-2021-09-18-orig/btcflash/Makefile ../schily-2021-09-18/btcflash/Makefile
+--- ../schily-2021-09-18-orig/btcflash/Makefile	2020-07-08 16:01:19.000000000 -0300
++++ ../schily-2021-09-18/btcflash/Makefile	2022-07-24 03:28:13.158733700 -0300
+@@ -26,7 +26,7 @@ HFILES=
+ #
+ # LIB_CAP is needed for Linux capability support in librscg.
+ #
+-LIBS=		-lscgcmd -lrscg -lscg $(LIB_VOLMGT) -lcdrdeflt -ldeflt -lschily $(SCSILIB) $(LIB_SOCKET) $(LIB_INTL) $(LIB_CAP)
++LIBS=		-lscgcmd -lrscg -lscg $(LIB_VOLMGT) -lcdrdeflt -ldeflt -lschily $(SCSILIB) $(LIB_SOCKET) $(LIB_INTL) $(LIB_ICONV) $(LIB_CAP)
+ XMK_FILE=	Makefile.man
+ 
+ scsi_scan.c io.c scsi_cdr.c misc.c:
+Only in ../schily-2021-09-18/btcflash: OBJ
+Only in ../schily-2021-09-18/btcflash: cd_misc.c
+Only in ../schily-2021-09-18/btcflash: io.c
+Only in ../schily-2021-09-18/btcflash: misc.c
+Only in ../schily-2021-09-18/btcflash: scsi_cdr.c
+Only in ../schily-2021-09-18/btcflash: scsi_scan.c
+diff -Zaurp ../schily-2021-09-18-orig/cal/Makefile ../schily-2021-09-18/cal/Makefile
+--- ../schily-2021-09-18-orig/cal/Makefile	2019-05-26 16:51:51.000000000 -0300
++++ ../schily-2021-09-18/cal/Makefile	2022-07-24 03:28:02.813727700 -0300
+@@ -19,7 +19,7 @@ CPPOPTS +=	-DTEXT_DOMAIN='"SUNW_OST_OSCM
+ 
+ CFILES=		cal.c
+ 
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/cal: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/calc/Makefile ../schily-2021-09-18/calc/Makefile
+--- ../schily-2021-09-18-orig/calc/Makefile	2021-08-18 09:38:50.000000000 -0300
++++ ../schily-2021-09-18/calc/Makefile	2022-07-24 03:27:43.254696600 -0300
+@@ -16,7 +16,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ 
+ CFILES=		calc.c
+ #HFILES=		
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/calc: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/calltree/Makefile ../schily-2021-09-18/calltree/Makefile
+--- ../schily-2021-09-18-orig/calltree/Makefile	2021-08-18 12:43:10.000000000 -0300
++++ ../schily-2021-09-18/calltree/Makefile	2022-07-24 03:30:02.808699200 -0300
+@@ -16,7 +16,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ 
+ CFILES=		calltree.c clex.c keyw.c string.c sym.c
+ HFILES=		clex.h strsubs.h sym.h version.h
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/calltree: OBJ
+Only in ../schily-2021-09-18/cdda2wav: OBJ
+Only in ../schily-2021-09-18/cdda2wav: acgeneral.m4
+Only in ../schily-2021-09-18/cdda2wav: aclocal.m4
+Only in ../schily-2021-09-18/cdda2wav: acoldnames.m4
+Only in ../schily-2021-09-18/cdda2wav: acspecific.m4
+Only in ../schily-2021-09-18/cdda2wav: autoconf
+Only in ../schily-2021-09-18/cdda2wav: autoconf.m4
+Only in ../schily-2021-09-18/cdda2wav: autoheader.m4
+Only in ../schily-2021-09-18/cdda2wav: cd_misc.c
+Only in ../schily-2021-09-18/cdda2wav: config.guess
+Only in ../schily-2021-09-18/cdda2wav: config.sub
+Only in ../schily-2021-09-18/cdda2wav: install-sh
+Only in ../schily-2021-09-18/cdda2wav: priv.c
+Only in ../schily-2021-09-18/cdda2wav: scsi_cdr.c
+Only in ../schily-2021-09-18/cdda2wav: scsi_scan.c
+Only in ../schily-2021-09-18/cdrecord: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/cdrecord/fifo.c ../schily-2021-09-18/cdrecord/fifo.c
+--- ../schily-2021-09-18-orig/cdrecord/fifo.c	2015-04-22 15:19:34.000000000 -0300
++++ ../schily-2021-09-18/cdrecord/fifo.c	2022-07-24 15:14:21.250658100 -0300
+@@ -847,8 +847,8 @@ fifo_percent(addone)
+ 
+ #include <schily/standard.h>
+ #include <schily/utypes.h>	/* includes sys/types.h */
+-#include <schily/schily.h>
+ #include <schily/nlsdefs.h>
++#include <schily/schily.h>
+ 
+ #include "cdrecord.h"
+ 
+diff -Zaurp ../schily-2021-09-18-orig/change/Makefile ../schily-2021-09-18/change/Makefile
+--- ../schily-2021-09-18-orig/change/Makefile	2021-08-19 06:50:33.000000000 -0300
++++ ../schily-2021-09-18/change/Makefile	2022-07-24 03:26:39.279731400 -0300
+@@ -17,7 +17,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ CFILES=		change.c
+ HFILES=		
+ #LIBS=		-lunos
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/change: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/compare/Makefile ../schily-2021-09-18/compare/Makefile
+--- ../schily-2021-09-18-orig/compare/Makefile	2021-08-19 07:00:38.000000000 -0300
++++ ../schily-2021-09-18/compare/Makefile	2022-07-24 03:29:46.225727900 -0300
+@@ -16,7 +16,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ 
+ CFILES=		compare.c
+ #HFILES=
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/compare: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/copy/Makefile ../schily-2021-09-18/copy/Makefile
+--- ../schily-2021-09-18-orig/copy/Makefile	2021-08-20 14:57:29.000000000 -0300
++++ ../schily-2021-09-18/copy/Makefile	2022-07-24 03:31:26.916456000 -0300
+@@ -16,7 +16,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ 
+ CFILES=		copy.c
+ #HFILES=
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/copy: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/count/Makefile ../schily-2021-09-18/count/Makefile
+--- ../schily-2021-09-18-orig/count/Makefile	2018-09-18 05:59:21.000000000 -0300
++++ ../schily-2021-09-18/count/Makefile	2022-07-24 03:31:38.932455200 -0300
+@@ -15,7 +15,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_UTILS\
+ 
+ CFILES=		count.c
+ #HFILES=
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/count: OBJ
+Only in ../schily-2021-09-18/cpp: OBJ
+Only in ../schily-2021-09-18/cstyle: OBJ
+Only in ../schily-2021-09-18/ctags: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/cut/Makefile ../schily-2021-09-18/cut/Makefile
+--- ../schily-2021-09-18-orig/cut/Makefile	2021-08-19 07:37:26.000000000 -0300
++++ ../schily-2021-09-18/cut/Makefile	2022-07-24 03:33:08.612457600 -0300
+@@ -17,7 +17,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ CFILES=		cut.c
+ #HFILES=
+ #LIBS=		-lunos
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/cut: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/fifo/Makefile ../schily-2021-09-18/fifo/Makefile
+--- ../schily-2021-09-18-orig/fifo/Makefile	2021-08-19 14:19:31.000000000 -0300
++++ ../schily-2021-09-18/fifo/Makefile	2022-07-24 03:33:27.103454300 -0300
+@@ -19,7 +19,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ 
+ CFILES=		fifo.c fifo_main.c
+ HFILES=
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ fifo.c:
+Only in ../schily-2021-09-18/fifo: OBJ
+Only in ../schily-2021-09-18/fifo: bitstring.h
+Only in ../schily-2021-09-18/fifo: fifo.c
+Only in ../schily-2021-09-18/fifo: fifo.h
+Only in ../schily-2021-09-18/fifo: pathname.h
+Only in ../schily-2021-09-18/fifo: star.h
+Only in ../schily-2021-09-18/fifo: starsubs.h
+diff -Zaurp ../schily-2021-09-18-orig/hdump/Makefile ../schily-2021-09-18/hdump/Makefile
+--- ../schily-2021-09-18-orig/hdump/Makefile	2020-08-14 15:41:02.000000000 -0300
++++ ../schily-2021-09-18/hdump/Makefile	2022-07-24 03:34:02.688456800 -0300
+@@ -30,7 +30,7 @@ GCCOPTOPT=	-O3  -fexpensive-optimization
+ #
+ CFILES=		hdump.c
+ #HFILES=
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man od.mk1
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/hdump: OBJ
+Only in ../schily-2021-09-18/inc: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/include/schily/hostname.h ../schily-2021-09-18/include/schily/hostname.h
+--- ../schily-2021-09-18-orig/include/schily/hostname.h	2014-01-01 13:55:21.000000000 -0400
++++ ../schily-2021-09-18/include/schily/hostname.h	2022-07-24 13:36:26.274961600 -0300
+@@ -80,8 +80,10 @@ extern "C" {
+  * We cannot define our own correct prototype, but this is not a problem as the
+  * return type is int.
+  */
+-#if !defined(__MINGW32__)
+ #ifndef	HAVE_GETHOSTNAME
++#if	defined(__MINGW32__) && !defined(__INSIDE_CYGWIN__)
++#include <schily/windows.h>
++#else
+ extern	int		gethostname	__PR((char *name, int namelen));
+ #endif
+ #endif
+diff -Zaurp ../schily-2021-09-18-orig/include/schily/schily.h ../schily-2021-09-18/include/schily/schily.h
+--- ../schily-2021-09-18-orig/include/schily/schily.h	2019-10-16 16:19:16.000000000 -0300
++++ ../schily-2021-09-18/include/schily/schily.h	2022-07-24 18:32:51.832335300 -0300
+@@ -10,6 +10,8 @@
+  *	stdlib.h	(better use schily/stdlib.h)
+  *	unistd.h	(better use schily/unistd.h) needed f. LARGEFILE support
+  *	schily/string.h
++ *	schily/wchar.h
++ *	schily/nlsdefs.h
+  *	sys/types.h
+  *
+  *	If you need stdio.h, you must include it before schily/schily.h
+@@ -729,4 +731,8 @@ extern	char	*js_fjsavestr	__PR((FILE *f,
+ #include <schily/hostname.h>
+ #endif
+ 
++#if	defined(__MINGW32__) && !defined(mkdir)
++#define	mkdir(a, b)	mkdir(a)
++#endif
++
+ #endif	/* _SCHILY_SCHILY_H */
+diff -Zaurp ../schily-2021-09-18-orig/include/schily/windows.h ../schily-2021-09-18/include/schily/windows.h
+--- ../schily-2021-09-18-orig/include/schily/windows.h	2013-10-26 08:33:27.000000000 -0300
++++ ../schily-2021-09-18/include/schily/windows.h	2022-07-24 14:44:59.514195600 -0300
+@@ -74,6 +74,9 @@
+ #define	timeval	__ms_timeval
+ #endif
+ 
++#if defined(__MINGW32__) && !defined(__INSIDE_CYGWIN__)
++#define __USE_W32_SOCKETS
++#endif
+ #include <windows.h>
+ 
+ #undef	BOOL			/* MS Code uses WBOOL or #define BOOL WBOOL */
+Only in ../schily-2021-09-18/incs: Dcc.x86_64-cygwin_nt-10.0-19044
+Only in ../schily-2021-09-18/incs: Dnull
+Only in ../schily-2021-09-18/incs: x86_64-cygwin_nt-10.0-19044-gcc
+diff -Zaurp ../schily-2021-09-18-orig/isaexec/Makefile ../schily-2021-09-18/isaexec/Makefile
+--- ../schily-2021-09-18-orig/isaexec/Makefile	2010-11-14 17:02:34.000000000 -0400
++++ ../schily-2021-09-18/isaexec/Makefile	2022-07-24 03:34:57.297455900 -0300
+@@ -15,7 +15,7 @@ CPPOPTS +=	'-DTEXT_DOMAIN="SUNW_OST_OSCM
+ SUNPROCOPTOPT=	-fast -xspace -xstrconst $(XARCH_OPT)
+ 
+ CFILES=		isaexec.c
+-
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/isaexec: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/label/Makefile ../schily-2021-09-18/label/Makefile
+--- ../schily-2021-09-18-orig/label/Makefile	2021-08-20 15:09:50.000000000 -0300
++++ ../schily-2021-09-18/label/Makefile	2022-07-24 03:35:52.289455900 -0300
+@@ -25,7 +25,7 @@ CFILES=		label.c makelabel.c io.c \
+ HFILES=		fmt.h
+ HFILES_TAG=	scsireg.h
+ 
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	label.mk1
+ 
+ makelabel.c io.c check_part.c:
+Only in ../schily-2021-09-18/label: OBJ
+Only in ../schily-2021-09-18/label: check_part.c
+Only in ../schily-2021-09-18/label: io.c
+Only in ../schily-2021-09-18/label: makelabel.c
+Only in ../schily-2021-09-18/libboshcmd: OBJ
+Only in ../schily-2021-09-18/libcdrdeflt: OBJ
+Only in ../schily-2021-09-18/libdbgmalloc: OBJ
+Only in ../schily-2021-09-18/libdbgmalloc: alloc.c
+Only in ../schily-2021-09-18/libdeflt: OBJ
+Only in ../schily-2021-09-18/libedc: OBJ
+Only in ../schily-2021-09-18/libfile: OBJ
+Only in ../schily-2021-09-18/libfind: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/libfind/walk.c ../schily-2021-09-18/libfind/walk.c
+--- ../schily-2021-09-18-orig/libfind/walk.c	2019-11-28 17:17:23.000000000 -0400
++++ ../schily-2021-09-18/libfind/walk.c	2022-07-24 02:09:50.118405600 -0300
+@@ -155,7 +155,7 @@ LOCAL	int	xchdotdot	__PR((struct pdirs *
+ 						struct WALK *_state));
+ LOCAL	int	xchdir		__PR((char *p));
+ 
+-LOCAL	int	wstat		__PR((const char *nm, struct stat *sp,
++LOCAL	int	wlkstat		__PR((const char *nm, struct stat *sp,
+ 					struct pdirs *pd));
+ LOCAL	int	wlstat		__PR((const char *nm, struct stat *sp,
+ 					struct pdirs *pd));
+@@ -177,7 +177,7 @@ treewalk(nm, fn, state)
+ 	struct WALK	*state; /* Walk state				*/
+ {
+ 	struct twvars	vars;
+-	statfun		statf = wstat;
++	statfun		statf = wlkstat;
+ 	size_t		nlen;
+ 	int		ret;
+ 
+@@ -252,7 +252,7 @@ treewalk(nm, fn, state)
+ 			statf = wlstat;
+ 
+ 		if (state->walkflags & (WALK_ARGFOLLOW|WALK_ALLFOLLOW))
+-			statf = wstat;
++			statf = wlkstat;
+ 	}
+ 
+ 	ret = walk(nm, statf, fn, state, (struct pdirs *)0);
+@@ -971,7 +971,7 @@ xchdir(p)
+  * Use vanilla stat()
+  */
+ LOCAL int
+-wstat(nm, sp, pd)
++wlkstat(nm, sp, pd)
+ 	const char	*nm;
+ 	struct stat	*sp;
+ 	struct pdirs	*pd;
+Only in ../schily-2021-09-18/libgetopt: OBJ
+Only in ../schily-2021-09-18/libhfs_iso: OBJ
+Only in ../schily-2021-09-18/libmdigest: OBJ
+Only in ../schily-2021-09-18/libparanoia: OBJ
+Only in ../schily-2021-09-18/librmt: OBJ
+Only in ../schily-2021-09-18/librscg: OBJ
+Only in ../schily-2021-09-18/libs: x86_64-cygwin_nt-10.0-19044-gcc
+Only in ../schily-2021-09-18/libscg: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/libscg/scg/aspi-win32.h ../schily-2021-09-18/libscg/scg/aspi-win32.h
+--- ../schily-2021-09-18-orig/libscg/scg/aspi-win32.h	2012-12-31 11:57:33.000000000 -0400
++++ ../schily-2021-09-18/libscg/scg/aspi-win32.h	2022-07-24 14:55:13.613882700 -0300
+@@ -204,6 +204,6 @@ typedef struct
+   BYTE      SRB_HaId;
+   BYTE      SRB_Flags;
+   DWORD     SRB_Hdr_Rsvd;
+-} SRB, *PSRB, FAR *LPSRB;
++} PACKED SRB, *PSRB, FAR *LPSRB;
+ 
+ #endif
+diff -Zaurp ../schily-2021-09-18-orig/libscg/scsi-wnt.c ../schily-2021-09-18/libscg/scsi-wnt.c
+--- ../schily-2021-09-18-orig/libscg/scsi-wnt.c	2017-08-01 16:45:16.000000000 -0300
++++ ../schily-2021-09-18/libscg/scsi-wnt.c	2022-07-24 18:35:52.040304400 -0300
+@@ -33,7 +33,7 @@ static	char __sccsid[] =
+  * http://www.opensource.org/licenses/cddl1.txt
+  *
+  * The following exceptions apply:
+- * CDDL §3.6 needs to be replaced by: "You may create a Larger Work by
++ * CDDL ï¿½3.6 needs to be replaced by: "You may create a Larger Work by
+  * combining Covered Software with other code if all other code is governed by
+  * the terms of a license that is OSI approved (see www.opensource.org) and
+  * you may distribute the Larger Work as a single product. In such a case,
+Only in ../schily-2021-09-18/libscgcmd: OBJ
+Only in ../schily-2021-09-18/libschily: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/libschily/fconv.c ../schily-2021-09-18/libschily/fconv.c
+--- ../schily-2021-09-18-orig/libschily/fconv.c	2018-09-10 12:51:03.000000000 -0300
++++ ../schily-2021-09-18/libschily/fconv.c	2022-07-24 13:13:41.420492900 -0300
+@@ -26,10 +26,10 @@
+ #include <schily/stdlib.h>
+ #include <schily/standard.h>
+ #include <schily/string.h>
+-#include <schily/schily.h>
+ #include <schily/math.h>	/* The default place for isinf()/isnan() */
+ #include <schily/nlsdefs.h>
+ #include <schily/ctype.h>
++#include <schily/schily.h>
+ #include "format.h"
+ 
+ #if	!defined(HAVE_STDLIB_H) || defined(HAVE_DTOA)
+diff -Zaurp ../schily-2021-09-18-orig/libschily/gethostname.c ../schily-2021-09-18/libschily/gethostname.c
+--- ../schily-2021-09-18-orig/libschily/gethostname.c	2019-09-01 12:50:35.000000000 -0300
++++ ../schily-2021-09-18/libschily/gethostname.c	2022-07-24 15:13:25.725665700 -0300
+@@ -27,8 +27,6 @@ static	UConst char sccsid[] =
+ #include <schily/hostname.h>
+ 
+ #ifndef	HAVE_GETHOSTNAME
+-EXPORT	int	gethostname	__PR((char *name, int namelen));
+-
+ 
+ #ifdef	SI_HOSTNAME
+ 
+@@ -69,6 +67,11 @@ gethostname(name, namelen)
+ #include <schily/windows.h>
+ #undef	gethostname
+ 
++#if defined(__GNUC__)
++#pragma GCC diagnostic push
++#pragma GCC diagnostic ignored "-Wattributes"
++#endif
++
+ EXPORT int
+ gethostname(name, namelen)
+ 	char	*name;
+@@ -85,11 +88,11 @@ gethostname(name, namelen)
+ 		return (0);
+ 
+ 	name[0] = '\0';
+-	if (!GetComputerName(name, &len)) {
++	if (!GetComputerName(name, (DWORD*)&len)) {
+ 		if (len > namelen) {
+ 			nbuf[0] = '\0';
+ 			len = sizeof (nbuf);
+-			(void) GetComputerName(nbuf, &len);
++			(void) GetComputerName(nbuf, (DWORD*)&len);
+ 			strncpy(name, nbuf, namelen);
+ 			return (0);
+ 		}
+@@ -98,6 +101,11 @@ gethostname(name, namelen)
+ 	}
+ 	return (0);
+ }
++
++#if defined(__GNUC__)
++#pragma GCC diagnostic pop
++#endif
++
+ #else
+ #include <schily/errno.h>
+ 
+@@ -114,7 +122,8 @@ gethostname(name, namelen)
+ 		name[0] = '\0';
+ 	return (0);
+ }
+-#endif
++#endif	/* __MINGW32__ || _MSC_VER */
++
+ #endif	/* !HAVE_UNAME */
+ 
+ #endif	/* !SI_HOSTNAME */
+diff -Zaurp ../schily-2021-09-18-orig/libschily/getxtnum.c ../schily-2021-09-18/libschily/getxtnum.c
+--- ../schily-2021-09-18-orig/libschily/getxtnum.c	2009-07-08 18:56:15.000000000 -0300
++++ ../schily-2021-09-18/libschily/getxtnum.c	2022-07-24 13:16:25.380484300 -0300
+@@ -27,8 +27,8 @@ static	UConst char sccsid[] =
+ #include <schily/standard.h>
+ #include <schily/utypes.h>
+ #include <schily/time.h>
+-#include <schily/schily.h>
+ #include <schily/nlsdefs.h>
++#include <schily/schily.h>
+ 
+ LOCAL	Llong	tnumber		__PR((char *arg, int *retp, gnmult_t *mult, int level));
+ EXPORT	int	getxtnum	__PR((char *arg, time_t *valp, gnmult_t *mult));
+diff -Zaurp ../schily-2021-09-18-orig/libschily/libschily.mk ../schily-2021-09-18/libschily/libschily.mk
+--- ../schily-2021-09-18-orig/libschily/libschily.mk	2016-11-06 15:04:53.000000000 -0400
++++ ../schily-2021-09-18/libschily/libschily.mk	2022-07-24 13:12:04.414565300 -0300
+@@ -12,9 +12,10 @@ TARGETLIB=	schily
+ CPPOPTS +=	-Istdio
+ CPPOPTS +=	-DUSE_SCANSTACK	# Try to scan stack frames
+ CPPOPTS +=	-DPORT_ONLY	# Add missing funcs line snprintf for porting
++CPPOPTS +=	-DSCHILY_PRINT	# Use js_*() versions of *print*() funcs
+ include		Targets
+ include		Targets.man
+-LIBS=		
++LIBS=		$(LIB_INTL) $(LIB_ICONV) -lc	# Now needs gettext()
+ 
+ XMK_FILE=	Makefile.man
+ ###########################################################################
+diff -Zaurp ../schily-2021-09-18-orig/libschily/mkdirat.c ../schily-2021-09-18/libschily/mkdirat.c
+--- ../schily-2021-09-18-orig/libschily/mkdirat.c	2013-12-26 14:16:52.000000000 -0400
++++ ../schily-2021-09-18/libschily/mkdirat.c	2022-07-24 18:37:45.529305200 -0300
+@@ -44,6 +44,9 @@
+ /* CSTYLED */
+ #define	KR_ARGS		, mode
+ #if defined(_MSC_VER) || defined(__MINGW32__)
++#ifdef mkdir
++#undef mkdir
++#endif
+ #define	FUNC_CALL(n)	mkdir(n)
+ #else
+ #define	FUNC_CALL(n)	mkdir(n, mode)
+diff -Zaurp ../schily-2021-09-18-orig/libschily/stdio/schilyio.h ../schily-2021-09-18/libschily/stdio/schilyio.h
+--- ../schily-2021-09-18-orig/libschily/stdio/schilyio.h	2018-10-10 17:19:27.000000000 -0300
++++ ../schily-2021-09-18/libschily/stdio/schilyio.h	2022-07-24 15:01:13.522457300 -0300
+@@ -179,10 +179,17 @@ extern	int	__filbuf		__PR((FILE *));
+ #	ifdef	HAVE__FILBUF
+ #	define	usg_filbuf(fp)		_filbuf(fp)
+ #	define	usg_flsbuf(c, fp)	_flsbuf(c, fp)
++#if defined(__GNUC__)
++#pragma GCC diagnostic push
++#pragma GCC diagnostic ignored "-Wattributes"
++#endif
+ /*
+  * Define prototypes to verify if our interface is right
+  */
+ extern	int	_filbuf			__PR((FILE *));
++#if defined(__GNUC__)
++#pragma GCC diagnostic pop
++#endif
+ #	else
+ /*
+  * no filbuf() but this will not happen on USG_STDIO systems.
+diff -Zaurp ../schily-2021-09-18-orig/libschily/uname.c ../schily-2021-09-18/libschily/uname.c
+--- ../schily-2021-09-18-orig/libschily/uname.c	2019-09-01 12:50:35.000000000 -0300
++++ ../schily-2021-09-18/libschily/uname.c	2022-07-24 14:45:47.921208400 -0300
+@@ -28,12 +28,11 @@ static	UConst char sccsid[] =
+ #include <schily/standard.h>
+ #include <schily/utypes.h>
+ #include <schily/utsname.h>
++#include <schily/string.h>
+ #include <schily/schily.h>
+ 
+ #if	defined(__MINGW32__) || defined(_MSC_VER)
+-#define	gethostname	__winsock_gethostname
+-#include <schily/windows.h>
+-#undef	gethostname
++#include <schily/hostname.h>
+ 
+ /*
+  * cystyle believes BOOL is a function name and does not like:
 diff -Zaurp ../schily-2021-09-18-orig/libschily/unsetenv.c ../schily-2021-09-18/libschily/unsetenv.c
 --- ../schily-2021-09-18-orig/libschily/unsetenv.c	2018-01-17 18:36:23.000000000 -0400
-+++ ../schily-2021-09-18/libschily/unsetenv.c	2022-07-23 19:59:19.284536200 -0300
++++ ../schily-2021-09-18/libschily/unsetenv.c	2022-07-23 16:53:56.270780400 -0300
 @@ -22,6 +22,7 @@
  
  #include <schily/standard.h>
@@ -368,10 +999,468 @@ diff -Zaurp ../schily-2021-09-18-orig/libschily/unsetenv.c ../schily-2021-09-18/
  #include <schily/schily.h>
  
  #ifndef	HAVE_UNSETENV
+diff -Zaurp ../schily-2021-09-18-orig/libschily/waitid.c ../schily-2021-09-18/libschily/waitid.c
+--- ../schily-2021-09-18-orig/libschily/waitid.c	2019-04-28 12:41:09.000000000 -0300
++++ ../schily-2021-09-18/libschily/waitid.c	2022-07-24 13:28:38.407245500 -0300
+@@ -21,6 +21,22 @@
+ #include	<schily/wait.h>
+ #include	<schily/schily.h>
+ 
++#if defined(__MINGW32__) && !defined(HAVE_SYS_WAIT_H)
++#include <process.h>
++#define dowait(s)  _cwait(s,pid,_WAIT_CHILD)
++
++pid_t
++waitpid (pid_t pid, int *stat_loc, int options __MINGW_ATTRIB_UNUSED)
++{
++	for (;;) {
++		const int wpid = dowait(stat_loc);
++		if (wpid == pid || wpid == -1) {
++			return wpid;
++		}
++	}
++}
++#endif
++
+ #ifndef	HAVE_WAITID
+ EXPORT int
+ waitid(idtype, id, infop, opts)
+diff -Zaurp ../schily-2021-09-18-orig/libschily/wcastoi.c ../schily-2021-09-18/libschily/wcastoi.c
+--- ../schily-2021-09-18-orig/libschily/wcastoi.c	2019-10-21 20:06:32.000000000 -0300
++++ ../schily-2021-09-18/libschily/wcastoi.c	2022-07-24 13:18:18.945079200 -0300
+@@ -28,9 +28,9 @@
+  */
+ 
+ #include <schily/standard.h>
+-#include <schily/schily.h>
+ #include <schily/errno.h>
+ #include <schily/wchar.h>
++#include <schily/schily.h>
+ 
+ #define	is_space(c)	 ((c) == L' ' || (c) == L'\t')
+ #define	is_digit(c)	 ((c) >= L'0' && (c) <= L'9')
+Only in ../schily-2021-09-18/libshedit: OBJ
+Only in ../schily-2021-09-18/libshedit: bsh.h
+Only in ../schily-2021-09-18/libshedit: bshconf.h
+Only in ../schily-2021-09-18/libshedit: comerr.c
+Only in ../schily-2021-09-18/libshedit: error.c
+Only in ../schily-2021-09-18/libshedit: expand.c
+Only in ../schily-2021-09-18/libshedit: fgetline.c
+Only in ../schily-2021-09-18/libshedit: inputc.c
+Only in ../schily-2021-09-18/libshedit: map.c
+Only in ../schily-2021-09-18/libshedit: map.h
+Only in ../schily-2021-09-18/libshedit: node.c
+Only in ../schily-2021-09-18/libshedit: node.h
+Only in ../schily-2021-09-18/libshedit: str.h
+Only in ../schily-2021-09-18/libshedit: strsubs.c
+Only in ../schily-2021-09-18/libshedit: strsubs.h
+Only in ../schily-2021-09-18/libshedit: ttymodes.c
+Only in ../schily-2021-09-18/libsiconv: OBJ
+Only in ../schily-2021-09-18/libstreamar: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/libstreamar/get.c ../schily-2021-09-18/libstreamar/get.c
+--- ../schily-2021-09-18-orig/libstreamar/get.c	2021-07-26 11:05:31.000000000 -0300
++++ ../schily-2021-09-18/libstreamar/get.c	2022-07-24 02:12:38.718678000 -0300
+@@ -35,6 +35,10 @@ static	UConst char sccsid[] =
+ #include <schily/strar.h>
+ #include "table.h"
+ 
++#ifdef	__MINGW32__
++#define	mkdir(a, b)	mkdir(a)
++#endif
++
+ #define	my_uid		strar_my_uid
+ #define	mode_mask	strar_mode_mask
+ 
+Only in ../schily-2021-09-18/libxtermcap: OBJ
+Only in ../schily-2021-09-18/lndir: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/lndir/lndir.c ../schily-2021-09-18/lndir/lndir.c
+--- ../schily-2021-09-18-orig/lndir/lndir.c	2013-04-28 10:17:00.000000000 -0300
++++ ../schily-2021-09-18/lndir/lndir.c	2022-07-24 03:41:46.723349500 -0300
+@@ -94,6 +94,7 @@ in this Software without prior written a
+ #endif
+ #include <schily/varargs.h>
+ #include <schily/libport.h>	/* Define missing prototypes */
++#include <schily/schily.h>
+ 
+ #ifndef	HAVE_LSTAT
+ #define	lstat	stat
+@@ -103,7 +104,7 @@ static void quit __PR((int code, char *
+ static void quiterr __PR((int code, char *s));
+ static void msg  __PR((char * fmt, ...));
+ static void mperror __PR((char *s));
+-static void ovstrcpy __PR((char *p2, char *p1));
++//static char *ovstrcpy __PR((char *s1, const char *s2));
+ static int  equivalent __PR((char *lname, char *rname, char **p));
+ static int dodir __PR((char *fn, struct stat *fs, struct stat *ts, int rel));
+ 	int main __PR((int ac, char *av[]));
+@@ -188,13 +189,17 @@ mperror(s)
+ /*
+  * A strcpy() that works with overlapping buffers
+  */
+-static void
+-ovstrcpy(p2, p1)
+-	register char	*p2;
+-	register char	*p1;
++char *
++ovstrcpy(s1, s2)
++	register char		*s1;
++	register const char	*s2;
+ {
+-	while ((*p2++ = *p1++) != '\0')
++	char	 *ret	= s1;
++
++	while ((*s1++ = *s2++) != '\0')
+ 		;
++
++	return (ret);
+ }
+ 
+ 
+Only in ../schily-2021-09-18/man2html: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/match/Makefile ../schily-2021-09-18/match/Makefile
+--- ../schily-2021-09-18-orig/match/Makefile	2021-08-19 14:23:33.000000000 -0300
++++ ../schily-2021-09-18/match/Makefile	2022-07-24 03:42:10.711332400 -0300
+@@ -18,7 +18,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ CFILES=		match.c
+ #HFILES=		
+ #LIBS=		-lunos
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/match: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/mdigest/Makefile ../schily-2021-09-18/mdigest/Makefile
+--- ../schily-2021-09-18-orig/mdigest/Makefile	2021-08-19 14:34:45.000000000 -0300
++++ ../schily-2021-09-18/mdigest/Makefile	2022-07-24 03:42:32.940333600 -0300
+@@ -16,7 +16,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ 
+ CFILES=		mdigest.c
+ HFILES=
+-LIBS=		-lmdigest -lschily $(LIB_INTL)
++LIBS=		-lmdigest -lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/mdigest: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/mkisofs/Makefile ../schily-2021-09-18/mkisofs/Makefile
+--- ../schily-2021-09-18-orig/mkisofs/Makefile	2019-08-11 14:21:14.000000000 -0300
++++ ../schily-2021-09-18/mkisofs/Makefile	2022-07-24 03:57:23.444750100 -0300
+@@ -60,7 +60,7 @@ HFILES=		apple.h bootinfo.h defaults.h d
+ LIBS=		-lhfs -lfile -lsiconv -lscgcmd -lrscg -lscg $(LIB_VOLMGT) -lcdrdeflt -ldeflt \
+ 		-lfind -lmdigest -lschily \
+ 		$(LIB_ACL_TEST) $(SCSILIB) $(LIB_SOCKET) \
+-		$(LIB_ICONV) $(LIB_INTL) $(LIB_CAP)
++		$(LIB_INTL) $(LIB_ICONV) $(LIB_CAP)
+ 
+ XMK_FILE=	Makefile.man hybridman.mk Makefile.doc
+ 
+Only in ../schily-2021-09-18/mkisofs: OBJ
+Only in ../schily-2021-09-18/mkisofs/diag: OBJ
+Only in ../schily-2021-09-18/mkisofs/diag: scsi.c
+diff -Zaurp ../schily-2021-09-18-orig/mkisofs/mkisofs.c ../schily-2021-09-18/mkisofs/mkisofs.c
+--- ../schily-2021-09-18-orig/mkisofs/mkisofs.c	2020-10-09 14:09:39.000000000 -0300
++++ ../schily-2021-09-18/mkisofs/mkisofs.c	2022-07-24 18:56:17.898234200 -0300
+@@ -1878,7 +1878,7 @@ usage(excode)
+  * Fill in date in the iso9660 format
+  * This takes 7 bytes and supports year 1900 .. 2155 with 1 second granularity
+  *
+- * The standards  state that the timezone offset is in multiples of 15
++ * The standards state that the timezone offset is in multiples of 15
+  * minutes, and is what you add to GMT to get the localtime.  The U.S.
+  * is always at a negative offset, from -5h to -8h (can vary a little
+  * with DST,  I guess).  The Linux iso9660 filesystem has had the sign
+@@ -1889,28 +1889,80 @@ iso9660_date(result, crtime)
+ 	char	*result;
+ 	time_t	crtime;
+ {
+-	struct tm	local;
+-	struct tm	gmt;
++	struct tm	*local;
++	struct tm	*gmt;
++	int year, yday, hour, minute, second, zone;
+ 
+-	local = *localtime(&crtime);
+-	gmt   = *gmtime(&crtime);
++	local = localtime(&crtime);
++	result[0] = year = local->tm_year;
++	result[1] = local->tm_mon + 1;
++	result[2] = local->tm_mday;
++	yday = local->tm_yday;
++	result[3] = hour = local->tm_hour;
++	result[4] = minute = local->tm_min;
++	result[5] = second = local->tm_sec;
+ 
+-	result[0] = local.tm_year;
+-	result[1] = local.tm_mon + 1;
+-	result[2] = local.tm_mday;
+-	result[3] = local.tm_hour;
+-	result[4] = local.tm_min;
+-	result[5] = local.tm_sec;
+-
+-	local.tm_min  -= gmt.tm_min;
+-	local.tm_hour -= gmt.tm_hour;
+-	local.tm_yday -= gmt.tm_yday;
+-	local.tm_year -= gmt.tm_year;
+-	if (local.tm_year)		/* Hit new-year limit	*/
+-		local.tm_yday = local.tm_year;	/* yday = +-1	*/
++	/* Sam Trenholme's notes: The following code has been updated to be
++	 * Y2028 compliant.  That is *not* a typo: Year twenty-*twenty*eight
++	 * (**not 2038!**).
++	 * In other words, result[6] (the time zone) had invalid values for
++	 * files created on or after January 1, 2028.
++	 */
+ 
+-	result[6] = (local.tm_min + 60 *
+-			(local.tm_hour + 24 * local.tm_yday)) / 15;
++	/* First of all, the 9660 spec only allows timestamps between
++	 * January 1, 1900 and December 31, 2155.  So, handle timestamps
++	 * outside that spec by giving out timestamps at the end of the
++	 * spec.  It is unknown here in 2021 whether or not 2155 will
++	 * have a leap second; I will assume programmers are smart enough
++	 * to not have things crash if we have a leap second. */
++	if(year < 0) {
++		/* January 1, 1900 00:00:00 GMT */
++		result[0] = 0;
++		result[1] = 1;
++		result[2] = 1;
++		result[3] = 0;
++		result[4] = 0;
++		result[5] = 0;
++		result[6] = 0; /* Time zone */
++		return 0;
++	} else if(year > 255) {
++		/* December 31, 2155, 23:59:60 GMT */
++		result[0] = 255;
++		result[1] = 12;
++		result[2] = 31;
++		result[3] = 23;
++		result[4] = 59;
++		result[5] = 60;
++		result[6] = 0; /* Time zone */
++		return 0;
++	}
++
++	/* I have no idea why POSIX does not have tm_gmtoff.  Since it
++	 * doesn't, we have to calculate it ourselves. */
++	gmt = gmtime(&crtime); /* Zaps local, be careful */
++
++	zone = 0;
++
++	/* We will never be more than one day off between GMT and local
++	 * time.  That in mind, if the year is different, we are one day
++	 * behind or ahead.  Otherwise, if the day is different, it will
++	 * always be a one day difference. */
++	if(gmt->tm_year < year) {
++		zone = 86400; /* 24 hours in seconds */
++	} else if(gmt->tm_year > year) {
++		zone = -86400;
++	} else if(gmt->tm_yday < yday) {
++		zone = 86400;
++	} else if(gmt->tm_yday > yday) {
++		zone = -86400;
++	}
++
++	/* Now that we account for different days, account for different
++	 * hours, minutes, and seconds. */
++	zone += (hour - gmt->tm_hour) * 3600;
++	zone += (minute - gmt->tm_min) * 60;
++	zone += second - gmt->tm_sec;
++	result[6] = zone / 900; /* Every 15 minutes in 9660 spec */
+ 
+ 	return (0);
+ }
+Only in ../schily-2021-09-18/mkisofs: schily-2021-09-18-patches-2.patch
+diff -Zaurp ../schily-2021-09-18-orig/mountcd/Makefile ../schily-2021-09-18/mountcd/Makefile
+--- ../schily-2021-09-18-orig/mountcd/Makefile	2021-08-19 14:45:00.000000000 -0300
++++ ../schily-2021-09-18/mountcd/Makefile	2022-07-24 03:43:24.953331100 -0300
+@@ -16,7 +16,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ 
+ CFILES=		mountcd.c
+ HFILES=
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/mountcd: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/mt/Makefile ../schily-2021-09-18/mt/Makefile
+--- ../schily-2021-09-18-orig/mt/Makefile	2021-08-19 14:51:16.000000000 -0300
++++ ../schily-2021-09-18/mt/Makefile	2022-07-24 03:43:39.827330200 -0300
+@@ -20,7 +20,7 @@ CFILES=		mt.c
+ #
+ # LIB_CAP is needed for Linux capability support in librmt.
+ #
+-LIBS=		-lrmt -lschily $(LIB_SOCKET) $(LIB_CAP) $(LIB_INTL)
++LIBS=		-lrmt -lschily $(LIB_SOCKET) $(LIB_CAP) $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man mt.mk1
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/mt: OBJ
+Only in ../schily-2021-09-18/obosh: OBJ
+Only in ../schily-2021-09-18/obosh: args.c
+Only in ../schily-2021-09-18/obosh: bltin.c
+Only in ../schily-2021-09-18/obosh: bosh.h
+Only in ../schily-2021-09-18/obosh: cmd.c
+Only in ../schily-2021-09-18/obosh: ctype.c
+Only in ../schily-2021-09-18/obosh: ctype.h
+Only in ../schily-2021-09-18/obosh: defs.c
+Only in ../schily-2021-09-18/obosh: defs.h
+Only in ../schily-2021-09-18/obosh: dup.h
+Only in ../schily-2021-09-18/obosh: echo.c
+Only in ../schily-2021-09-18/obosh: error.c
+Only in ../schily-2021-09-18/obosh: expand.c
+Only in ../schily-2021-09-18/obosh: fault.c
+Only in ../schily-2021-09-18/obosh: func.c
+Only in ../schily-2021-09-18/obosh: gmatch.c
+Only in ../schily-2021-09-18/obosh: hash.c
+Only in ../schily-2021-09-18/obosh: hash.h
+Only in ../schily-2021-09-18/obosh: hashserv.c
+Only in ../schily-2021-09-18/obosh: io.c
+Only in ../schily-2021-09-18/obosh: jobs.c
+Only in ../schily-2021-09-18/obosh: jobs.h
+Only in ../schily-2021-09-18/obosh: mac.h
+Only in ../schily-2021-09-18/obosh: macro.c
+Only in ../schily-2021-09-18/obosh: main.c
+Only in ../schily-2021-09-18/obosh: mode.h
+Only in ../schily-2021-09-18/obosh: msg.c
+Only in ../schily-2021-09-18/obosh: name.c
+Only in ../schily-2021-09-18/obosh: name.h
+Only in ../schily-2021-09-18/obosh: optget.c
+Only in ../schily-2021-09-18/obosh: print.c
+Only in ../schily-2021-09-18/obosh: pwd.c
+Only in ../schily-2021-09-18/obosh: service.c
+Only in ../schily-2021-09-18/obosh: sh_policy.c
+Only in ../schily-2021-09-18/obosh: sh_policy.h
+Only in ../schily-2021-09-18/obosh: signames.c
+Only in ../schily-2021-09-18/obosh: stak.c
+Only in ../schily-2021-09-18/obosh: stak.h
+Only in ../schily-2021-09-18/obosh: string.c
+Only in ../schily-2021-09-18/obosh: sym.h
+Only in ../schily-2021-09-18/obosh: test.c
+Only in ../schily-2021-09-18/obosh: timeout.h
+Only in ../schily-2021-09-18/obosh: ulimit.c
+Only in ../schily-2021-09-18/obosh: umask.c
+Only in ../schily-2021-09-18/obosh: version.h
+Only in ../schily-2021-09-18/obosh: word.c
+Only in ../schily-2021-09-18/obosh: xec.c
+diff -Zaurp ../schily-2021-09-18-orig/p/Makefile ../schily-2021-09-18/p/Makefile
+--- ../schily-2021-09-18-orig/p/Makefile	2021-08-17 18:55:32.000000000 -0300
++++ ../schily-2021-09-18/p/Makefile	2022-07-24 03:45:56.952334800 -0300
+@@ -16,7 +16,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ 
+ CFILES=		p.c ctab.c
+ HFILES=
+-LIBS=		-lxtermcap -lschily $(LIB_INTL)
++LIBS=		-lxtermcap -lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/p: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/paste/Makefile ../schily-2021-09-18/paste/Makefile
+--- ../schily-2021-09-18-orig/paste/Makefile	2021-08-20 12:53:10.000000000 -0300
++++ ../schily-2021-09-18/paste/Makefile	2022-07-24 03:46:33.615330500 -0300
+@@ -15,7 +15,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ 
+ CFILES=		paste.c
+ #HFILES=
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/paste: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/patch/Makefile ../schily-2021-09-18/patch/Makefile
+--- ../schily-2021-09-18-orig/patch/Makefile	2016-06-15 19:23:22.000000000 -0300
++++ ../schily-2021-09-18/patch/Makefile	2022-07-24 03:46:49.030330700 -0300
+@@ -17,7 +17,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_UTILS\
+ CFILES=		patch.c inp.c pch.c util.c
+ HFILES=		common.h inp.h pch.h util.h
+ 
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	patch_sym.mk Makefile.man opatch.mk1 patch.mk1 sccspatch.mk1
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/patch: OBJ
+Only in ../schily-2021-09-18/pbosh: OBJ
+Only in ../schily-2021-09-18/pbosh: abbrev.c
+Only in ../schily-2021-09-18/pbosh: abbrev.h
+Only in ../schily-2021-09-18/pbosh: alias.c
+Only in ../schily-2021-09-18/pbosh: args.c
+Only in ../schily-2021-09-18/pbosh: bltin.c
+Only in ../schily-2021-09-18/pbosh: bosh.h
+Only in ../schily-2021-09-18/pbosh: cmd.c
+Only in ../schily-2021-09-18/pbosh: ctype.c
+Only in ../schily-2021-09-18/pbosh: ctype.h
+Only in ../schily-2021-09-18/pbosh: defs.c
+Only in ../schily-2021-09-18/pbosh: defs.h
+Only in ../schily-2021-09-18/pbosh: dup.h
+Only in ../schily-2021-09-18/pbosh: echo.c
+Only in ../schily-2021-09-18/pbosh: error.c
+Only in ../schily-2021-09-18/pbosh: expand.c
+Only in ../schily-2021-09-18/pbosh: fault.c
+Only in ../schily-2021-09-18/pbosh: func.c
+Only in ../schily-2021-09-18/pbosh: gmatch.c
+Only in ../schily-2021-09-18/pbosh: hash.c
+Only in ../schily-2021-09-18/pbosh: hash.h
+Only in ../schily-2021-09-18/pbosh: hashserv.c
+Only in ../schily-2021-09-18/pbosh: io.c
+Only in ../schily-2021-09-18/pbosh: jobs.c
+Only in ../schily-2021-09-18/pbosh: jobs.h
+Only in ../schily-2021-09-18/pbosh: mac.h
+Only in ../schily-2021-09-18/pbosh: macro.c
+Only in ../schily-2021-09-18/pbosh: main.c
+Only in ../schily-2021-09-18/pbosh: mode.h
+Only in ../schily-2021-09-18/pbosh: msg.c
+Only in ../schily-2021-09-18/pbosh: name.c
+Only in ../schily-2021-09-18/pbosh: name.h
+Only in ../schily-2021-09-18/pbosh: optget.c
+Only in ../schily-2021-09-18/pbosh: print.c
+Only in ../schily-2021-09-18/pbosh: printf.c
+Only in ../schily-2021-09-18/pbosh: pwd.c
+Only in ../schily-2021-09-18/pbosh: service.c
+Only in ../schily-2021-09-18/pbosh: sh_policy.c
+Only in ../schily-2021-09-18/pbosh: sh_policy.h
+Only in ../schily-2021-09-18/pbosh: signames.c
+Only in ../schily-2021-09-18/pbosh: stak.c
+Only in ../schily-2021-09-18/pbosh: stak.h
+Only in ../schily-2021-09-18/pbosh: strexpr.c
+Only in ../schily-2021-09-18/pbosh: string.c
+Only in ../schily-2021-09-18/pbosh: sym.h
+Only in ../schily-2021-09-18/pbosh: test.c
+Only in ../schily-2021-09-18/pbosh: timeout.h
+Only in ../schily-2021-09-18/pbosh: ulimit.c
+Only in ../schily-2021-09-18/pbosh: umask.c
+Only in ../schily-2021-09-18/pbosh: version.h
+Only in ../schily-2021-09-18/pbosh: word.c
+Only in ../schily-2021-09-18/pbosh: xec.c
+diff -Zaurp ../schily-2021-09-18-orig/printf/Makefile ../schily-2021-09-18/printf/Makefile
+--- ../schily-2021-09-18-orig/printf/Makefile	2020-07-08 16:01:18.000000000 -0300
++++ ../schily-2021-09-18/printf/Makefile	2022-07-24 03:47:52.820127200 -0300
+@@ -15,7 +15,7 @@ CPPOPTS +=	-DDO_SYSPRINTF_FLOAT	# Includ
+ 
+ CFILES=		printf.c misc.c
+ HFILES=		defs.h
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ printf.c:
+Only in ../schily-2021-09-18/printf: OBJ
+Only in ../schily-2021-09-18/printf: printf.c
 diff -Zaurp ../schily-2021-09-18-orig/psmake/MAKE-sh ../schily-2021-09-18/psmake/MAKE-sh
 --- ../schily-2021-09-18-orig/psmake/MAKE-sh	2021-06-24 09:30:13.000000000 -0300
-+++ ../schily-2021-09-18/psmake/MAKE-sh	2022-07-23 20:04:31.430383500 -0300
-@@ -273,12 +273,14 @@ $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $D
++++ ../schily-2021-09-18/psmake/MAKE-sh	2022-07-23 14:17:41.088269100 -0300
+@@ -23,6 +23,7 @@ while [ x"$1" != x ]; do
+ 	    echo "CC_OPT=		The Options for the C-compiler (e.g. -O)"
+ 	    echo "CFLAGS=		Additional C-compiler flags"
+ 	    echo "LDFLAGS=	Additional Linker flags"
++	    echo "LIBS=		Additional libraries to link"
+ 	    exit
+ 	    continue;;
+ 
+@@ -273,6 +274,7 @@ $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $D
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   error.c
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   format.c
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   getexecpath.c
@@ -379,19 +1468,32 @@ diff -Zaurp ../schily-2021-09-18-orig/psmake/MAKE-sh ../schily-2021-09-18/psmake
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   getnstimeofday.c
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   jsprintf.c
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   jssnprintf.c
- $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   saveargs.c
+@@ -280,6 +282,7 @@ $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $D
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   seterrno.c
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   strcatl.c
-+$CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   strlcat.c
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   strlcpy.c
++$CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   strlcat.c
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   strncpy.c
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   strnlen.c
-@@ -305,4 +307,4 @@ $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $D
+ $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   streql.c
+@@ -305,4 +308,4 @@ $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $D
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   fileseek.c
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   niread.c
  $CC $OPT $CPF $CF $CFLAGS -c $INCLUDE $DEFINES   niwrite.c
 -$CC $LF $LDFLAGS -o smake make.$o readfile.$o parse.$o update.$o rules.$o archconf.$o job.$o memory.$o  astoi.$o astoll.$o comerr.$o error.$o eaccess.$o format.$o getexecpath.$o getnstimeofday.$o jsprintf.$o jssnprintf.$o saveargs.$o seterrno.$o strcatl.$o strlcpy.$o strncpy.$o strnlen.$o streql.$o getargs.$o geterrno.$o movebytes.$o fillbytes.$o ovstrcpy.$o raisecond.$o rename.$o searchinpath.$o uname.$o unsetenv.$o file_raise.$o fileopen.$o fcons.$o cvmod.$o flag.$o flush.$o dat.$o filewrite.$o fileread.$o fileseek.$o niread.$o niwrite.$o
-+$CC $LF $LDFLAGS -o smake make.$o readfile.$o parse.$o update.$o rules.$o archconf.$o job.$o memory.$o  astoi.$o astoll.$o comerr.$o error.$o eaccess.$o format.$o getexecpath.$o gethostname.$o getnstimeofday.$o jsprintf.$o jssnprintf.$o saveargs.$o seterrno.$o strcatl.$o strlcat.$o strlcpy.$o strncpy.$o strnlen.$o streql.$o getargs.$o geterrno.$o movebytes.$o fillbytes.$o ovstrcpy.$o raisecond.$o rename.$o searchinpath.$o uname.$o unsetenv.$o file_raise.$o fileopen.$o fcons.$o cvmod.$o flag.$o flush.$o dat.$o filewrite.$o fileread.$o fileseek.$o niread.$o niwrite.$o
++$CC $LF $LDFLAGS -o smake make.$o readfile.$o parse.$o update.$o rules.$o archconf.$o job.$o memory.$o  astoi.$o astoll.$o comerr.$o error.$o eaccess.$o format.$o getexecpath.$o gethostname.$o getnstimeofday.$o jsprintf.$o jssnprintf.$o saveargs.$o seterrno.$o strcatl.$o strlcpy.$o strlcat.$o strncpy.$o strnlen.$o streql.$o getargs.$o geterrno.$o movebytes.$o fillbytes.$o ovstrcpy.$o raisecond.$o rename.$o searchinpath.$o uname.$o unsetenv.$o file_raise.$o fileopen.$o fcons.$o cvmod.$o flag.$o flush.$o dat.$o filewrite.$o fileread.$o fileseek.$o niread.$o niwrite.$o $LIBS
+diff -Zaurp ../schily-2021-09-18-orig/psmake/Makefile ../schily-2021-09-18/psmake/Makefile
+--- ../schily-2021-09-18-orig/psmake/Makefile	2019-02-10 18:36:05.000000000 -0400
++++ ../schily-2021-09-18/psmake/Makefile	2022-07-23 13:44:53.558817700 -0300
+@@ -12,7 +12,7 @@ OFILES=make.$o readfile.$o parse.$o upda
+ 	format.$o \
+ 	getexecpath.$o \
+ 	jsprintf.$o jssnprintf.$o \
+-	saveargs.$o strcatl.$o strlcpy.$o strncpy.$o strnlen.$o \
++	saveargs.$o strcatl.$o strlcpy.$o strlcat.$o strncpy.$o strnlen.$o \
+ 	streql.$o getargs.$o geterrno.$o seterrno.$o \
+ 	movebytes.$o fillbytes.$o raisecond.$o rename.$o \
+ 	searchinpath.$o file_raise.$o \
 Only in ../schily-2021-09-18/psmake: archconf.c
 Only in ../schily-2021-09-18/psmake: archconf.o
 Only in ../schily-2021-09-18/psmake: astoi.c
@@ -408,7 +1510,7 @@ Only in ../schily-2021-09-18/psmake: config.sub
 Only in ../schily-2021-09-18/psmake: configure
 diff -Zaurp ../schily-2021-09-18-orig/psmake/cpfiles ../schily-2021-09-18/psmake/cpfiles
 --- ../schily-2021-09-18-orig/psmake/cpfiles	2021-08-20 10:33:34.000000000 -0300
-+++ ../schily-2021-09-18/psmake/cpfiles	2022-07-23 20:03:26.567086100 -0300
++++ ../schily-2021-09-18/psmake/cpfiles	2022-07-23 14:16:15.677270800 -0300
 @@ -116,6 +116,7 @@ $cp ${incsrc}/${lib}/error.c		error.c
  $cp ${incsrc}/${lib}/format.c		format.c
  $cp ${incsrc}/${lib}/format.h		format.h
@@ -417,14 +1519,14 @@ diff -Zaurp ../schily-2021-09-18-orig/psmake/cpfiles ../schily-2021-09-18/psmake
  $cp ${incsrc}/${lib}/getnstimeofday.c	getnstimeofday.c
  #$cp ${incsrc}/${lib}/printf.c		printf.c
  #$cp ${incsrc}/${lib}/sprintf.c		sprintf.c
-@@ -123,6 +124,7 @@ $cp ${incsrc}/${lib}/getnstimeofday.c	ge
- $cp ${incsrc}/${lib}/saveargs.c		saveargs.c
+@@ -124,6 +125,7 @@ $cp ${incsrc}/${lib}/saveargs.c		savearg
  $cp ${incsrc}/${lib}/seterrno.c		seterrno.c
  $cp ${incsrc}/${lib}/strcatl.c		strcatl.c
-+$cp ${incsrc}/${lib}/strlcat.c		strlcat.c
  $cp ${incsrc}/${lib}/strlcpy.c		strlcpy.c
++$cp ${incsrc}/${lib}/strlcat.c		strlcat.c
  $cp ${incsrc}/${lib}/strncpy.c		strncpy.c
  $cp ${incsrc}/${lib}/strnlen.c		strnlen.c
+ $cp ${incsrc}/${lib}/streql.c		streql.c
 Only in ../schily-2021-09-18/psmake: cvmod.c
 Only in ../schily-2021-09-18/psmake: cvmod.o
 Only in ../schily-2021-09-18/psmake: dat.c
@@ -527,7 +1629,7 @@ Only in ../schily-2021-09-18/psmake: jssnprintf.c
 Only in ../schily-2021-09-18/psmake: jssnprintf.o
 diff -Zaurp ../schily-2021-09-18-orig/psmake/lnfiles ../schily-2021-09-18/psmake/lnfiles
 --- ../schily-2021-09-18-orig/psmake/lnfiles	2021-08-20 10:33:34.000000000 -0300
-+++ ../schily-2021-09-18/psmake/lnfiles	2022-07-23 20:03:37.544650500 -0300
++++ ../schily-2021-09-18/psmake/lnfiles	2022-07-23 14:16:22.988268800 -0300
 @@ -116,6 +116,7 @@ $cp ${incsrc}/${lib}/error.c		error.c
  $cp ${incsrc}/${lib}/format.c		format.c
  $cp ${incsrc}/${lib}/format.h		format.h
@@ -536,14 +1638,14 @@ diff -Zaurp ../schily-2021-09-18-orig/psmake/lnfiles ../schily-2021-09-18/psmake
  $cp ${incsrc}/${lib}/getnstimeofday.c	getnstimeofday.c
  #$cp ${incsrc}/${lib}/printf.c		printf.c
  #$cp ${incsrc}/${lib}/sprintf.c		sprintf.c
-@@ -123,6 +124,7 @@ $cp ${incsrc}/${lib}/getnstimeofday.c	ge
- $cp ${incsrc}/${lib}/saveargs.c	saveargs.c
+@@ -124,6 +125,7 @@ $cp ${incsrc}/${lib}/saveargs.c	saveargs
  $cp ${incsrc}/${lib}/seterrno.c	seterrno.c
  $cp ${incsrc}/${lib}/strcatl.c		strcatl.c
-+$cp ${incsrc}/${lib}/strlcat.c		strlcat.c
  $cp ${incsrc}/${lib}/strlcpy.c		strlcpy.c
++$cp ${incsrc}/${lib}/strlcat.c		strlcat.c
  $cp ${incsrc}/${lib}/strncpy.c		strncpy.c
  $cp ${incsrc}/${lib}/strnlen.c		strnlen.c
+ $cp ${incsrc}/${lib}/streql.c		streql.c
 Only in ../schily-2021-09-18/psmake: make.c
 Only in ../schily-2021-09-18/psmake: make.h
 Only in ../schily-2021-09-18/psmake: make.o
@@ -567,8 +1669,8 @@ Only in ../schily-2021-09-18/psmake: rename.c
 Only in ../schily-2021-09-18/psmake: rename.o
 diff -Zaurp ../schily-2021-09-18-orig/psmake/rmlinks ../schily-2021-09-18/psmake/rmlinks
 --- ../schily-2021-09-18-orig/psmake/rmlinks	2021-08-20 10:33:34.000000000 -0300
-+++ ../schily-2021-09-18/psmake/rmlinks	2022-07-23 20:03:55.848026800 -0300
-@@ -90,12 +90,14 @@ rm -f error.c
++++ ../schily-2021-09-18/psmake/rmlinks	2022-07-23 14:16:47.039270800 -0300
+@@ -90,6 +90,7 @@ rm -f error.c
  rm -f format.c
  rm -f format.h
  rm -f getexecpath.c
@@ -576,13 +1678,14 @@ diff -Zaurp ../schily-2021-09-18-orig/psmake/rmlinks ../schily-2021-09-18/psmake
  rm -f getnstimeofday.c
  rm -f printf.c
  rm -f sprintf.c
- rm -f saveargs.c
+@@ -97,6 +98,7 @@ rm -f saveargs.c
  rm -f seterrno.c
  rm -f strcatl.c
-+rm -f strlcat.c
  rm -f strlcpy.c
++rm -f strlcat.c
  rm -f strncpy.c
  rm -f strnlen.c
+ rm -f streql.c
 Only in ../schily-2021-09-18/psmake: rules.c
 Only in ../schily-2021-09-18/psmake: rules.cnf
 Only in ../schily-2021-09-18/psmake: rules.cnf.in
@@ -616,3 +1719,299 @@ Only in ../schily-2021-09-18/psmake: update.o
 Only in ../schily-2021-09-18/psmake: version.h
 Only in ../schily-2021-09-18/psmake: xconfig.h
 Only in ../schily-2021-09-18/psmake: xconfig.h.in
+Only in ../schily-2021-09-18/pxupgrade: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/readcd/Makefile ../schily-2021-09-18/readcd/Makefile
+--- ../schily-2021-09-18-orig/readcd/Makefile	2020-07-08 16:01:18.000000000 -0300
++++ ../schily-2021-09-18/readcd/Makefile	2022-07-24 03:57:34.824963700 -0300
+@@ -31,7 +31,7 @@ HFILES=
+ #
+ # LIB_CAP is needed for Linux capability support in librscg.
+ #
+-LIBS=		-lscgcmd -lrscg -lscg $(LIB_VOLMGT) -ledc_ecc_dec -ledc_ecc -lcdrdeflt -ldeflt -lschily $(SCSILIB) $(LIB_SOCKET) $(LIB_INTL) $(LIB_CAP)
++LIBS=		-lscgcmd -lrscg -lscg $(LIB_VOLMGT) -ledc_ecc_dec -ledc_ecc -lcdrdeflt -ldeflt -lschily $(SCSILIB) $(LIB_SOCKET) $(LIB_INTL) $(LIB_ICONV) $(LIB_CAP)
+ XMK_FILE=	Mreadcd.man
+ 
+ cd_misc.c scsi_scan.c scsi_cdr.c misc.c priv.c:
+Only in ../schily-2021-09-18/readcd: OBJ
+Only in ../schily-2021-09-18/readcd: cd_misc.c
+Only in ../schily-2021-09-18/readcd: misc.c
+Only in ../schily-2021-09-18/readcd: movesect.c
+Only in ../schily-2021-09-18/readcd: priv.c
+Only in ../schily-2021-09-18/readcd: scsi_cdr.c
+Only in ../schily-2021-09-18/readcd: scsi_mmc.c
+Only in ../schily-2021-09-18/readcd: scsi_scan.c
+Only in ../schily-2021-09-18/rmt: OBJ
+Only in ../schily-2021-09-18/rscsi: OBJ
+Only in ../schily-2021-09-18/sccs/sccs/cmd/src: OBJ
+Only in ../schily-2021-09-18/sccs/sccs/cmd/src: fsdiff.c
+Only in ../schily-2021-09-18/sccs/sccs/cmd/xpg4: OBJ
+Only in ../schily-2021-09-18/sccs/sccs/cmd/xpg4: get.c
+Only in ../schily-2021-09-18/sccs/sccs/cmd/xpg4: sccs.c
+Only in ../schily-2021-09-18/sccs/sccs/lib/cassi/src: OBJ
+Only in ../schily-2021-09-18/sccs/sccs/lib/comobj/src: OBJ
+Only in ../schily-2021-09-18/sccs/sccs/lib/mpwlib/src: OBJ
+Only in ../schily-2021-09-18/sccs/sccs/lib/sccs/src: OBJ
+Only in ../schily-2021-09-18/scgcheck: OBJ
+Only in ../schily-2021-09-18/scgcheck: cd_misc.c
+Only in ../schily-2021-09-18/scgcheck: scsi_cdr.c
+Only in ../schily-2021-09-18/scgcheck: scsi_scan.c
+Only in ../schily-2021-09-18/scgskeleton: OBJ
+Only in ../schily-2021-09-18/scgskeleton: cd_misc.c
+Only in ../schily-2021-09-18/scgskeleton: io.c
+Only in ../schily-2021-09-18/scgskeleton: misc.c
+Only in ../schily-2021-09-18/scgskeleton: scsi_cdr.c
+Only in ../schily-2021-09-18/scgskeleton: scsi_scan.c
+Only in ../schily-2021-09-18: schily-2021-09-18 - Shortcut.lnk
+diff -Zaurp ../schily-2021-09-18-orig/sdd/Makefile ../schily-2021-09-18/sdd/Makefile
+--- ../schily-2021-09-18-orig/sdd/Makefile	2021-08-18 09:11:32.000000000 -0300
++++ ../schily-2021-09-18/sdd/Makefile	2022-07-24 03:56:50.668557600 -0300
+@@ -21,7 +21,7 @@ HFILES=
+ #
+ # LIB_CAP is needed for Linux capability support in librmt.
+ #
+-LIBS=		-lmdigest -lrmt -lschily $(LIB_SOCKET) $(LIB_CAP) $(LIB_INTL)
++LIBS=		-lmdigest -lrmt -lschily $(LIB_SOCKET) $(LIB_CAP) $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/sdd: OBJ
+Only in ../schily-2021-09-18/sfind: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/sformat/Makefile ../schily-2021-09-18/sformat/Makefile
+--- ../schily-2021-09-18-orig/sformat/Makefile	2021-08-20 13:18:20.000000000 -0300
++++ ../schily-2021-09-18/sformat/Makefile	2022-07-24 03:59:02.089468800 -0300
+@@ -11,7 +11,7 @@ VPATH=		.:dat:$(ARCHDIR)
+ INSDIR=		bin
+ TARGET=		sformat
+ CPPOPTS +=	-I../libscg
+-CPPOPTS +=	-I.		# Für dat/*.c
++CPPOPTS +=	-I.		# Fï¿½r dat/*.c
+ CPPOPTS +=	-DFMT
+ CPPOPTS +=	-DSCHILY_PRINT
+ CPPOPTS +=	-DUSE_NLS		# Include locale support
+@@ -36,7 +36,7 @@ HFILES=		fmt.h \
+ 		scsicmds.h dsklabel.h
+ 
+ #LIBS=		-lunos
+-LIBS=		-lscg $(LIB_VOLMGT) -lschily $(SCSILIB) $(LIB_KVM) $(LIB_SOCKET) $(LIB_INTL)
++LIBS=		-lscg $(LIB_VOLMGT) -lschily $(SCSILIB) $(LIB_KVM) $(LIB_SOCKET) $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.dat Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/sformat: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/sgrow/Makefile ../schily-2021-09-18/sgrow/Makefile
+--- ../schily-2021-09-18-orig/sgrow/Makefile	2021-08-20 13:10:27.000000000 -0300
++++ ../schily-2021-09-18/sgrow/Makefile	2022-07-24 03:59:27.381266700 -0300
+@@ -17,7 +17,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ CFILES=		sgrow.c
+ #HFILES=
+ #LIBS=		-lunos
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/sgrow: OBJ
+Only in ../schily-2021-09-18/sh: OBJ
+Only in ../schily-2021-09-18/sh: abbrev.c
+Only in ../schily-2021-09-18/sh: abbrev.h
+diff -Zaurp ../schily-2021-09-18-orig/sh/bltin.c ../schily-2021-09-18/sh/bltin.c
+--- ../schily-2021-09-18-orig/sh/bltin.c	2021-07-12 13:27:35.000000000 -0300
++++ ../schily-2021-09-18/sh/bltin.c	2022-07-24 04:05:22.670046200 -0300
+@@ -63,7 +63,7 @@ static	UConst char sccsid[] =
+ #endif
+ #include	<sys/types.h>
+ #include	<sys/stat.h>
+-#include	<sys/times.h>
++#include	<schily/times.h>
+ 
+ #include	<schily/resource.h>
+ #include	<schily/wait.h>		/* Needed for CLD_EXITED */
+diff -Zaurp ../schily-2021-09-18-orig/sh/defs.h ../schily-2021-09-18/sh/defs.h
+--- ../schily-2021-09-18-orig/sh/defs.h	2020-10-08 18:17:08.000000000 -0300
++++ ../schily-2021-09-18/sh/defs.h	2022-07-24 18:47:26.541519900 -0300
+@@ -880,9 +880,13 @@ extern	int	str2sig		__PR((const char *s,
+ #ifndef	HAVE_SIG2STR
+ extern	int	sig2str		__PR((int sig, char *s));
+ #endif
+-#ifndef	SIG2STR_MAX		/* From Solaris signal.h */
+-#define	SIG2STR_MAX	32
+-#endif
++/* MinGW/MSVC define SIG2STR_MAX using sizeof, which means that it cannot be
++ * used during preprocessing.
++ */
++#if	defined(SIG2STR_MAX) && (defined(__MINGW32__) || defined(_MSC_VER))
++#undef	SIG2STR_MAX
++#endif /* SIG2STR_MAX && (__MINGW32__ || _MSC_VER) */
++#define	SIG2STR_MAX	32	/* From Solaris signal.h */
+ 
+ /*
+  * test.c
+Only in ../schily-2021-09-18/sh: signames.c
+diff -Zaurp ../schily-2021-09-18-orig/smake/Makefile ../schily-2021-09-18/smake/Makefile
+--- ../schily-2021-09-18-orig/smake/Makefile	2021-08-20 10:12:25.000000000 -0300
++++ ../schily-2021-09-18/smake/Makefile	2022-07-24 04:07:04.408542600 -0300
+@@ -24,7 +24,7 @@ HFILES=		make.h job.h version.h
+ #
+ # $(LIB_INTL) is needed because libschily/mem.c needs it.
+ #
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.def Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/smake: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/smake/make.h ../schily-2021-09-18/smake/make.h
+--- ../schily-2021-09-18-orig/smake/make.h	2021-08-06 09:14:14.000000000 -0300
++++ ../schily-2021-09-18/smake/make.h	2022-07-24 02:15:41.177266800 -0300
+@@ -268,7 +268,7 @@ extern	int	getrdbufsize	__PR((void));
+ extern	void	setincmd	__PR((BOOL isincmd));
+ extern	void	getch		__PR((void));
+ extern	int	peekch		__PR((void));
+-extern	void	ungetch		__PR((int c));
++extern	int	ungetch		__PR((int c));
+ extern	void	skipline	__PR((void));
+ extern	void	readstring	__PR((char * str, char * strname));
+ extern	void	readfile	__PR((char * name, BOOL  must_exist));
+diff -Zaurp ../schily-2021-09-18-orig/smake/readfile.c ../schily-2021-09-18/smake/readfile.c
+--- ../schily-2021-09-18-orig/smake/readfile.c	2021-09-05 06:33:29.000000000 -0300
++++ ../schily-2021-09-18/smake/readfile.c	2022-07-24 02:17:33.221268500 -0300
+@@ -218,11 +218,12 @@ peekch()
+ /*
+  * Unget a character.
+  */
+-EXPORT void
++EXPORT int
+ ungetch(c)
+ 	int	c;
+ {
+ 	myungetc(c);
++	return (0);
+ }
+ 
+ /*
+@@ -437,8 +438,8 @@ doinclude(name, must_exist)
+ 				o->o_name);
+ 		}
+ 		/*
+-		 * Zurücksetzen des Datums bewirkt Neuauswertung
+-		 * der Abhängigkeitsliste.
++		 * Zurï¿½cksetzen des Datums bewirkt Neuauswertung
++		 * der Abhï¿½ngigkeitsliste.
+ 		 * XXX Das kann Probleme bei make depend geben.
+ 		 */
+ 		o->o_date = 0;
+diff -Zaurp ../schily-2021-09-18-orig/star/Makefile ../schily-2021-09-18/star/Makefile
+--- ../schily-2021-09-18-orig/star/Makefile	2018-07-30 17:10:03.000000000 -0300
++++ ../schily-2021-09-18/star/Makefile	2022-07-24 04:11:40.246352800 -0300
+@@ -61,7 +61,7 @@ HFILES=		star.h starsubs.h dirtime.h xta
+ # LIB_CAP is needed for Linux capability support in librmt.
+ # LIB_SELINUX is needed for SELinux capability support.
+ #
+-LIBS=		-ldeflt -lrmt -lfind -lschily $(LIB_ACL) $(LIB_ATTR) $(LIB_SOCKET) $(LIB_ICONV) $(LIB_INTL) $(LIB_CAP) $(LIB_SELINUX)
++LIBS=		-ldeflt -lrmt -lfind -lschily -lregex $(LIB_ACL) $(LIB_ATTR) $(LIB_SOCKET) $(LIB_INTL) $(LIB_ICONV) $(LIB_CAP) $(LIB_SELINUX)
+ #
+ #	Wenn -lfind, dann auch  $(LIB_INTL)
+ #
+Only in ../schily-2021-09-18/star: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/star/fifo.c ../schily-2021-09-18/star/fifo.c
+--- ../schily-2021-09-18-orig/star/fifo.c	2020-07-19 15:17:28.000000000 -0300
++++ ../schily-2021-09-18/star/fifo.c	2022-07-24 04:10:20.033476600 -0300
+@@ -70,6 +70,10 @@ static	UConst char sccsid[] =
+ #include <schily/schily.h>
+ #include <schily/libport.h>	/* getpagesize() */
+ 
++#ifndef SIGPIPE
++#define SIGPIPE 13
++#endif
++
+ #ifndef	HAVE_SMMAP
+ #undef	USE_MMAP
+ #ifdef	FIFO
+Only in ../schily-2021-09-18/star: star_fat.c
+diff -Zaurp ../schily-2021-09-18-orig/star/star_fat.mk ../schily-2021-09-18/star/star_fat.mk
+--- ../schily-2021-09-18-orig/star/star_fat.mk	2018-06-07 20:59:01.000000000 -0300
++++ ../schily-2021-09-18/star/star_fat.mk	2022-07-24 03:57:53.648230100 -0300
+@@ -56,7 +56,7 @@ HFILES=		star.h starsubs.h dirtime.h xta
+ #
+ # LIB_CAP is needed for Linux capability support in librmt.
+ #
+-LIBS=		-ldeflt -lrmt -lfind -lschily $(LIB_ACL) $(LIB_ATTR) $(LIB_SOCKET) $(LIB_ICONV) $(LIB_INTL) $(LIB_CAP)
++LIBS=		-ldeflt -lrmt -lfind -lschily $(LIB_ACL) $(LIB_ATTR) $(LIB_SOCKET) $(LIB_INTL) $(LIB_ICONV) $(LIB_CAP)
+ #
+ #	Wenn -lfind, dann auch  $(LIB_INTL)
+ #
+Only in ../schily-2021-09-18/star_sym: OBJ
+Only in ../schily-2021-09-18/star_sym: dumpdate.c
+Only in ../schily-2021-09-18/star_sym: lpath_unix.c
+Only in ../schily-2021-09-18/star_sym: restore.c
+diff -Zaurp ../schily-2021-09-18-orig/strar/Makefile ../schily-2021-09-18/strar/Makefile
+--- ../schily-2021-09-18-orig/strar/Makefile	2021-08-20 14:40:07.000000000 -0300
++++ ../schily-2021-09-18/strar/Makefile	2022-07-24 03:58:03.112957800 -0300
+@@ -16,7 +16,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ 
+ CFILES=		strar.c
+ HFILES=
+-LIBS=		-lstreamar -lfind -lschily $(LIB_ICONV) $(LIB_INTL)
++LIBS=		-lstreamar -lfind -lschily $(LIB_INTL) $(LIB_ICONV)
+ #
+ #	Wenn -lfind, dann auch  $(LIB_INTL)
+ #
+Only in ../schily-2021-09-18/strar: OBJ
+Only in ../schily-2021-09-18/sunpro/Make/bin/make/common: OBJ
+Only in ../schily-2021-09-18/sunpro/Make/lib/bsd/src: OBJ
+Only in ../schily-2021-09-18/sunpro/Make/lib/makestate/src: OBJ
+Only in ../schily-2021-09-18/sunpro/Make/lib/mksh/src: OBJ
+Only in ../schily-2021-09-18/sunpro/Make/lib/vroot/src: OBJ
+Only in ../schily-2021-09-18/tartest: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/termcap/Makefile ../schily-2021-09-18/termcap/Makefile
+--- ../schily-2021-09-18-orig/termcap/Makefile	2021-08-20 13:01:43.000000000 -0300
++++ ../schily-2021-09-18/termcap/Makefile	2022-07-24 04:15:29.437122300 -0300
+@@ -16,7 +16,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ CFILES=		cap.c
+ 
+ HFILES=		
+-LIBS=		-lxtermcap -lschily $(LIB_INTL)
++LIBS=		-lxtermcap -lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/termcap: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/translit/Makefile ../schily-2021-09-18/translit/Makefile
+--- ../schily-2021-09-18-orig/translit/Makefile	2021-08-20 12:56:50.000000000 -0300
++++ ../schily-2021-09-18/translit/Makefile	2022-07-24 04:15:47.580125700 -0300
+@@ -17,7 +17,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ CFILES=		translit.c
+ # HFILES=
+ #LIBS=		-lunos
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/translit: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/udiff/Makefile ../schily-2021-09-18/udiff/Makefile
+--- ../schily-2021-09-18-orig/udiff/Makefile	2021-08-17 18:52:52.000000000 -0300
++++ ../schily-2021-09-18/udiff/Makefile	2022-07-24 04:15:55.971389700 -0300
+@@ -18,7 +18,7 @@ CPPOPTS +=	-DTEXT_DOMAIN=\"SCHILY_utils\
+ CFILES=		udiff.c
+ HFILES=
+ #LIBS=		-lunos
+-LIBS=		-lschily $(LIB_INTL)
++LIBS=		-lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man fdiff.mk1 fsdiff.mk1
+ 
+ ###########################################################################
+Only in ../schily-2021-09-18/udiff: OBJ
+diff -Zaurp ../schily-2021-09-18-orig/ved/Makefile ../schily-2021-09-18/ved/Makefile
+--- ../schily-2021-09-18-orig/ved/Makefile	2021-08-20 13:25:01.000000000 -0300
++++ ../schily-2021-09-18/ved/Makefile	2022-07-24 04:16:32.198390200 -0300
+@@ -38,7 +38,7 @@ CFILES=		ved.c edit.c binding.c vedtmpop
+ HFILES=		buffer.h ved.h func.h map.h movedot.h terminal.h ttys.h \
+ 		version.h
+ #LIBS=		-lunos
+-LIBS=		-lxtermcap -lschily $(LIB_INTL)
++LIBS=		-lxtermcap -lschily $(LIB_INTL) $(LIB_ICONV)
+ XMK_FILE=	Makefile.man ved-e.mk1 ved-w.mk1 \
+ 		Makefile.help Makefile.doc Makefile.dot Makefile.warn
+ 
+Only in ../schily-2021-09-18/ved: OBJ
